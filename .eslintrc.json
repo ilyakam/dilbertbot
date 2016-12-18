@@ -4,5 +4,9 @@
   "env": {
     "amd": true,
     "jasmine": true
+  },
+
+  "globals": {
+    "process": true
   }
 }
