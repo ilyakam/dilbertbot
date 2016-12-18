@@ -1,0 +1,37 @@
+{
+  "author": "Ilya Kaminsky (http://ilyakam.com)",
+  "bugs": {
+    "url": "https://github.com/ilyakam/dilbertbot/issues"
+  },
+  "dependencies": {
+    "node-schedule": "^1.2.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.5.2",
+    "mockery": "^2.0.0",
+    "nodemon": "^1.11.0"
+  },
+  "homepage": "https://github.com/ilyakam/dilbertbot#readme",
+  "keywords": [
+    "bot",
+    "dilbert",
+    "slack",
+    "tutorial"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "dilbertbot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyakam/dilbertbot.git"
+  },
+  "scripts": {
+    "dev": "nodemon -x 'npm run lint && npm run test'",
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "test": "istanbul cover -x '*spec.js' ./node_modules/.bin/jasmine"
+  },
+  "version": "0.0.0"
+}
