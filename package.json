@@ -35,5 +35,5 @@
     "start": "node index.js",
     "test": "istanbul cover -x '*spec.js' ./node_modules/.bin/jasmine"
   },
-  "version": "0.0.0"
+  "version": "1.0.0"
 }
