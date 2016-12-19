@@ -54,3 +54,17 @@ A Daily Dilbert Comic Strip Bot for Slack
   ```sh
   npm run lint
   ```
+
+---
+
+## Deploy
+
+This bot can be deployed on different platforms. Simply follow the instructions below:
+
+### [Zeit's Now](https://zeit.co/now)
+
+  ```sh
+  # Ensure you're inside the dilbertbot directory
+  npm install now -g
+  now deploy -e SLACK_WEBHOOK_URL=[your webhook URL]
+  ```
